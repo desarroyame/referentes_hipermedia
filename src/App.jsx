@@ -54,7 +54,7 @@ function App() {
   }
 
   return (
-    <Router>
+    <Router basename="/referentes_hipermedia">
       <div className="app">
         <Header stats={stats} />
         <main className="main-content">
