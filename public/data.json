@@ -1,0 +1,2737 @@
+{
+  "metadata": {
+    "version": "2.1.0",
+    "fecha": "2024-12-10",
+    "descripcion": "Base de datos con todos los registros identificados en la investigación",
+    "cambios": "Agregado campo tech_stack estructurado para todos los registros"
+  },
+  "videojuegos": [
+    {
+      "id": "VG-001",
+      "nombre": "Cris Tales",
+      "estudio": "Dreams Enterprises S.A.S.",
+      "nit": "901460903",
+      "ciudad": "Bucaramanga",
+      "anio": 2021,
+      "motor": "Unity",
+      "plataformas": [
+        "PC",
+        "PS4",
+        "PS5",
+        "Xbox",
+        "Switch"
+      ],
+      "genero": "JRPG",
+      "tech_stack": [
+        {
+          "tipo": "motor",
+          "nombre": "Unity",
+          "version": null
+        },
+        {
+          "tipo": "plataforma",
+          "nombre": "Steam",
+          "uso": "Distribución PC"
+        },
+        {
+          "tipo": "plataforma",
+          "nombre": "PlayStation",
+          "uso": "PS4/PS5"
+        },
+        {
+          "tipo": "plataforma",
+          "nombre": "Xbox",
+          "uso": "Xbox One/Series"
+        },
+        {
+          "tipo": "plataforma",
+          "nombre": "Nintendo Switch",
+          "uso": "Consola híbrida"
+        }
+      ]
+    },
+    {
+      "id": "VG-002",
+      "nombre": "Lunar Lander Beyond",
+      "estudio": "Dreams Enterprises S.A.S.",
+      "nit": "901460903",
+      "ciudad": "Bucaramanga",
+      "anio": 2024,
+      "motor": "Unity",
+      "plataformas": [
+        "PC",
+        "Consolas"
+      ],
+      "tech_stack": [
+        {
+          "tipo": "motor",
+          "nombre": "Unity",
+          "version": null
+        },
+        {
+          "tipo": "publisher",
+          "nombre": "Atari",
+          "uso": "Distribución"
+        }
+      ]
+    },
+    {
+      "id": "VG-003",
+      "nombre": "Haimrik",
+      "estudio": "Dreams Enterprises S.A.S.",
+      "nit": "901460903",
+      "ciudad": "Bucaramanga",
+      "anio": 2018,
+      "motor": "Unity",
+      "tech_stack": [
+        {
+          "tipo": "motor",
+          "nombre": "Unity",
+          "version": null
+        }
+      ]
+    },
+    {
+      "id": "VG-004",
+      "nombre": "Story Warriors: Fairy Tales",
+      "estudio": "Dreams Enterprises S.A.S.",
+      "nit": "901460903",
+      "ciudad": "Bucaramanga",
+      "anio": 2016,
+      "tech_stack": [
+        {
+          "tipo": "plataforma",
+          "nombre": "Netflix Games",
+          "uso": "Streaming gaming"
+        }
+      ]
+    },
+    {
+      "id": "VG-005",
+      "nombre": "Prisma",
+      "estudio": "Dreams Enterprises S.A.S.",
+      "nit": "901460903",
+      "ciudad": "Bucaramanga",
+      "anio": 2026,
+      "estado": "desarrollo",
+      "tech_stack": [
+        {
+          "tipo": "estado",
+          "nombre": "En desarrollo",
+          "nota": "JRPG 2D"
+        }
+      ]
+    },
+    {
+      "id": "VG-006",
+      "nombre": "Decoherence",
+      "estudio": "Efecto Estudios S.A.S.",
+      "nit": "9004132147",
+      "ciudad": "Bogotá",
+      "anio": 2019,
+      "motor": "Unreal",
+      "premio": "Unreal Dev Grants 2017",
+      "tech_stack": [
+        {
+          "tipo": "motor",
+          "nombre": "Unreal Engine",
+          "version": null
+        },
+        {
+          "tipo": "plataforma",
+          "nombre": "Apple Arcade",
+          "uso": "Streaming Apple"
+        },
+        {
+          "tipo": "premio",
+          "nombre": "Unreal Dev Grants",
+          "año": 2017
+        }
+      ]
+    },
+    {
+      "id": "VG-007",
+      "nombre": "El Chavo Kart",
+      "estudio": "Efecto Estudios S.A.S.",
+      "nit": "9004132147",
+      "ciudad": "Bogotá",
+      "anio": 2014,
+      "motor": "UE3",
+      "tech_stack": [
+        {
+          "tipo": "motor",
+          "nombre": "Unreal Engine",
+          "version": "3"
+        }
+      ]
+    },
+    {
+      "id": "VG-008",
+      "nombre": "Grabbity: Fall for It",
+      "estudio": "Efecto Estudios S.A.S.",
+      "nit": "9004132147",
+      "ciudad": "Bogotá",
+      "anio": 2012,
+      "tech_stack": [
+        {
+          "tipo": "plataforma",
+          "nombre": "iOS",
+          "uso": "iPhone/iPad"
+        },
+        {
+          "tipo": "plataforma",
+          "nombre": "Android",
+          "uso": "Google Play"
+        }
+      ]
+    },
+    {
+      "id": "VG-009",
+      "nombre": "Project Possession",
+      "estudio": "Efecto Estudios S.A.S.",
+      "nit": "9004132147",
+      "ciudad": "Bogotá",
+      "anio": 2022,
+      "tech_stack": [
+        {
+          "tipo": "plataforma",
+          "nombre": "Steam",
+          "uso": "F2P PC"
+        }
+      ]
+    },
+    {
+      "id": "VG-010",
+      "nombre": "Captain ToonHead vs The Punks from Outer Space",
+      "estudio": "Corporación Teravisión Colombia S.A.S.",
+      "nit": "900336546-7",
+      "ciudad": "Bogotá",
+      "anio": 2021,
+      "motor": "Unreal",
+      "tipo": "VR",
+      "tech_stack": [
+        {
+          "tipo": "motor",
+          "nombre": "Unreal Engine",
+          "version": null
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "PSVR",
+          "uso": "PlayStation VR"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Meta Quest",
+          "uso": "VR standalone"
+        },
+        {
+          "tipo": "framework",
+          "nombre": "SteamVR",
+          "uso": "PC VR"
+        }
+      ]
+    },
+    {
+      "id": "VG-011",
+      "nombre": "Killer Klowns from Outer Space: The Game",
+      "estudio": "Corporación Teravisión Colombia S.A.S.",
+      "nit": "900336546-7",
+      "ciudad": "Bogotá",
+      "anio": 2024,
+      "motor": "Unreal",
+      "tech_stack": [
+        {
+          "tipo": "motor",
+          "nombre": "Unreal Engine",
+          "version": null
+        },
+        {
+          "tipo": "genero",
+          "nombre": "Multiplayer asimétrico",
+          "jugadores": "3v7"
+        }
+      ]
+    },
+    {
+      "id": "VG-012",
+      "nombre": "Astor: Blade of the Monolith",
+      "estudio": "C2 Game Studio",
+      "ciudad": "Medellín",
+      "anio": 2024,
+      "motor": "Unreal",
+      "tech_stack": [
+        {
+          "tipo": "motor",
+          "nombre": "Unreal Engine",
+          "version": null
+        },
+        {
+          "tipo": "publisher",
+          "nombre": "tinyBuild",
+          "uso": "Distribución"
+        }
+      ]
+    },
+    {
+      "id": "VG-013",
+      "nombre": "Cowboy Guns",
+      "estudio": "C2 Game Studio",
+      "ciudad": "Medellín",
+      "tech_stack": [
+        {
+          "tipo": "plataforma",
+          "nombre": "iOS",
+          "uso": "App Store"
+        }
+      ]
+    },
+    {
+      "id": "VG-014",
+      "nombre": "Nitro Chimp",
+      "estudio": "C2 Game Studio",
+      "ciudad": "Medellín",
+      "tech_stack": [
+        {
+          "tipo": "plataforma",
+          "nombre": "Mobile",
+          "uso": "iOS/Android"
+        }
+      ]
+    },
+    {
+      "id": "VG-015",
+      "nombre": "Logicubes",
+      "estudio": "Indie Level Studio S.A.S.",
+      "nit": "900906598",
+      "ciudad": "Medellín",
+      "anio": 2024,
+      "motor": "Unity",
+      "premio": "Google Indie Fund 2025",
+      "tech_stack": [
+        {
+          "tipo": "motor",
+          "nombre": "Unity",
+          "version": null
+        },
+        {
+          "tipo": "plataforma",
+          "nombre": "Google Play",
+          "uso": "Android"
+        },
+        {
+          "tipo": "plataforma",
+          "nombre": "App Store",
+          "uso": "iOS"
+        },
+        {
+          "tipo": "premio",
+          "nombre": "Google Indie Fund",
+          "año": 2025,
+          "monto": "USD 150,000"
+        }
+      ]
+    },
+    {
+      "id": "VG-016",
+      "nombre": "Rainak",
+      "estudio": "Indie Level Studio S.A.S.",
+      "nit": "900906598",
+      "ciudad": "Medellín",
+      "estado": "desarrollo",
+      "tech_stack": [
+        {
+          "tipo": "estado",
+          "nombre": "En desarrollo",
+          "nota": "Puzzle - Game Connection 2024"
+        }
+      ]
+    },
+    {
+      "id": "VG-017",
+      "nombre": "Serenade of Chaos",
+      "estudio": "Indie Level Studio S.A.S.",
+      "nit": "900906598",
+      "ciudad": "Medellín",
+      "estado": "desarrollo",
+      "tech_stack": [
+        {
+          "tipo": "estado",
+          "nombre": "En desarrollo",
+          "nota": "RPG mundo abierto procedural"
+        }
+      ]
+    },
+    {
+      "id": "VG-018",
+      "nombre": "Jeanne",
+      "estudio": "Indie Level Studio S.A.S.",
+      "nit": "900906598",
+      "ciudad": "Medellín",
+      "estado": "desarrollo",
+      "tech_stack": [
+        {
+          "tipo": "estado",
+          "nombre": "En desarrollo",
+          "nota": "Visual Novel Renacimiento"
+        }
+      ]
+    },
+    {
+      "id": "VG-019",
+      "nombre": "Ciudadela Universitaria",
+      "estudio": "Indie Level Studio S.A.S.",
+      "nit": "900906598",
+      "ciudad": "Medellín",
+      "estado": "desarrollo",
+      "tech_stack": [
+        {
+          "tipo": "plataforma",
+          "nombre": "Metaverso educativo",
+          "uso": "Universidades Medellín"
+        }
+      ]
+    },
+    {
+      "id": "VG-020",
+      "nombre": "Dashmellow - Multiplayer Race",
+      "estudio": "Teriun Games S.A.S.",
+      "ciudad": "Bogotá",
+      "anio": 2020,
+      "motor": "Unity",
+      "descargas": "45000+",
+      "tech_stack": [
+        {
+          "tipo": "motor",
+          "nombre": "Unity",
+          "version": null
+        },
+        {
+          "tipo": "framework",
+          "nombre": "Multiplayer networking",
+          "uso": "Online racing"
+        }
+      ]
+    },
+    {
+      "id": "VG-021",
+      "nombre": "Cybercat",
+      "estudio": "Teriun Games S.A.S.",
+      "ciudad": "Bogotá",
+      "anio": 2023,
+      "tech_stack": [
+        {
+          "tipo": "plataforma",
+          "nombre": "Android",
+          "uso": "Google Play"
+        }
+      ]
+    },
+    {
+      "id": "VG-022",
+      "nombre": "Vampire Season - Monster Defense",
+      "estudio": "Brainz S.A.S.",
+      "ciudad": "Bogotá",
+      "anio": 2012,
+      "tech_stack": [
+        {
+          "tipo": "plataforma",
+          "nombre": "Mobile",
+          "uso": "iOS/Android Tower Defense"
+        }
+      ]
+    },
+    {
+      "id": "VG-023",
+      "nombre": "World War Doh",
+      "estudio": "Brainz S.A.S.",
+      "ciudad": "Bogotá",
+      "anio": 2018,
+      "premio": "Apple Best 2017 LATAM",
+      "tech_stack": [
+        {
+          "tipo": "plataforma",
+          "nombre": "Mobile",
+          "uso": "iOS/Android RTS"
+        },
+        {
+          "tipo": "premio",
+          "nombre": "Apple Best 2017 LATAM",
+          "año": 2017
+        }
+      ]
+    },
+    {
+      "id": "VG-024",
+      "nombre": "Space Overlords",
+      "estudio": "12 Hit Combo! S.A.S.",
+      "ciudad": "Bogotá",
+      "anio": 2016,
+      "tech_stack": [
+        {
+          "tipo": "plataforma",
+          "nombre": "Steam",
+          "uso": "PC"
+        },
+        {
+          "tipo": "plataforma",
+          "nombre": "PlayStation",
+          "uso": "PS4"
+        }
+      ]
+    },
+    {
+      "id": "VG-025",
+      "nombre": "Audio Ninja",
+      "estudio": "Cocodrilo Dog Games",
+      "ciudad": "Bogotá",
+      "anio": 2013,
+      "tech_stack": [
+        {
+          "tipo": "plataforma",
+          "nombre": "iOS",
+          "uso": "Juego musical"
+        }
+      ]
+    },
+    {
+      "id": "VG-026",
+      "nombre": "Moana: Rhythm Run",
+      "estudio": "Cocodrilo Dog Games",
+      "ciudad": "Bogotá",
+      "anio": 2016,
+      "cliente": "Disney",
+      "tech_stack": [
+        {
+          "tipo": "plataforma",
+          "nombre": "Mobile",
+          "uso": "iOS/Android runner"
+        },
+        {
+          "tipo": "cliente",
+          "nombre": "Disney",
+          "uso": "IP license"
+        }
+      ]
+    },
+    {
+      "id": "VG-027",
+      "nombre": "JoJo Siwa Worldwide Party",
+      "estudio": "Cocodrilo Dog Games",
+      "ciudad": "Bogotá",
+      "anio": 2020,
+      "cliente": "Nickelodeon",
+      "tech_stack": [
+        {
+          "tipo": "plataforma",
+          "nombre": "Multi-console",
+          "uso": "Party game"
+        },
+        {
+          "tipo": "cliente",
+          "nombre": "Nickelodeon",
+          "uso": "IP license"
+        }
+      ]
+    },
+    {
+      "id": "VG-028",
+      "nombre": "Boom Fighters",
+      "estudio": "Cocodrilo Dog Games",
+      "ciudad": "Bogotá",
+      "estado": "desarrollo",
+      "tech_stack": [
+        {
+          "tipo": "estado",
+          "nombre": "En desarrollo",
+          "nota": "Acción PC/Mac"
+        }
+      ]
+    },
+    {
+      "id": "VG-029",
+      "nombre": "Poltergeist: A Pixelated Horror",
+      "estudio": "Glitchy Pixel",
+      "ciudad": "Colombia",
+      "anio": 2014,
+      "premio": "Square Enix 2012 - 40M COP",
+      "tech_stack": [
+        {
+          "tipo": "plataforma",
+          "nombre": "PS Vita",
+          "uso": "PlayStation Vita"
+        },
+        {
+          "tipo": "plataforma",
+          "nombre": "PC/Mac/Linux",
+          "uso": "Cross-platform"
+        },
+        {
+          "tipo": "premio",
+          "nombre": "Square Enix Prize",
+          "año": 2012,
+          "monto": "40M COP"
+        }
+      ]
+    }
+  ],
+  "experienciasFisicas": [
+    {
+      "id": "EF-001",
+      "nombre": "Juego Pulsómetro Electrónico",
+      "empresa": "Troniks Tecnología Aplicada S.A.S.",
+      "ciudad": "Bogotá",
+      "motor": "Unity",
+      "tipo": "Juego electromecánico",
+      "tech_stack": [
+        {
+          "tipo": "motor",
+          "nombre": "Unity",
+          "version": null
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Sensores de pulso eléctrico",
+          "uso": "Detección contacto"
+        },
+        {
+          "tipo": "electronica",
+          "nombre": "Arduino/microcontrolador",
+          "uso": "Control hardware"
+        }
+      ]
+    },
+    {
+      "id": "EF-002",
+      "nombre": "Simuladores Deportivos",
+      "empresa": "Troniks Tecnología Aplicada S.A.S.",
+      "ciudad": "Bogotá",
+      "motor": "Unity",
+      "hardware": "Kinect, Leap Motion",
+      "tech_stack": [
+        {
+          "tipo": "motor",
+          "nombre": "Unity",
+          "version": null
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Microsoft Kinect",
+          "uso": "Tracking corporal"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Leap Motion",
+          "uso": "Tracking manos"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Plataformas de movimiento",
+          "uso": "Simulación física"
+        }
+      ]
+    },
+    {
+      "id": "EF-003",
+      "nombre": "Sistemas VR Corporativos",
+      "empresa": "Troniks Tecnología Aplicada S.A.S.",
+      "ciudad": "Bogotá",
+      "motor": "Unity",
+      "hardware": "Meta Quest 1/2/3",
+      "tech_stack": [
+        {
+          "tipo": "motor",
+          "nombre": "Unity",
+          "version": null
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Meta Quest 1/2/3",
+          "uso": "VR standalone"
+        },
+        {
+          "tipo": "framework",
+          "nombre": "Oculus SDK",
+          "uso": "Integración VR"
+        },
+        {
+          "tipo": "aplicacion",
+          "nombre": "50+ experiencias VR",
+          "uso": "Corporativo"
+        }
+      ]
+    },
+    {
+      "id": "EF-004",
+      "nombre": "Simulador T-37",
+      "empresa": "Palcort Tech S.A.S.",
+      "ciudad": "Bogotá",
+      "tipo": "Simulador militar",
+      "cliente": "Fuerza Aérea Colombiana",
+      "tech_stack": [
+        {
+          "tipo": "software",
+          "nombre": "Propietario",
+          "uso": "Simulación vuelo"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Plataforma movimiento eléctrica",
+          "uso": "Motion platform"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Cabina física T-37",
+          "uso": "Réplica exacta"
+        }
+      ]
+    },
+    {
+      "id": "EF-005",
+      "nombre": "Simulador Embraer T-27 Tucano",
+      "empresa": "Palcort Tech S.A.S.",
+      "ciudad": "Bogotá",
+      "tipo": "Simulador FTD nivel 6",
+      "tech_stack": [
+        {
+          "tipo": "software",
+          "nombre": "Propietario FTD nivel 6",
+          "uso": "Simulación vuelo"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Cabina Embraer T-27",
+          "uso": "Réplica"
+        }
+      ]
+    },
+    {
+      "id": "EF-006",
+      "nombre": "Simulador Super Tucano",
+      "empresa": "Palcort Tech S.A.S.",
+      "ciudad": "Bogotá",
+      "tipo": "Simulador vuelo",
+      "tech_stack": [
+        {
+          "tipo": "software",
+          "nombre": "Propietario",
+          "uso": "Simulación vuelo"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Sistema visual LED",
+          "uso": "Visualización"
+        }
+      ]
+    },
+    {
+      "id": "EF-007",
+      "nombre": "Simulador Basler AC-47T Fantasma",
+      "empresa": "Palcort Tech S.A.S.",
+      "ciudad": "Bogotá",
+      "tipo": "Simulador vuelo",
+      "tech_stack": [
+        {
+          "tipo": "software",
+          "nombre": "Propietario",
+          "uso": "Simulación vuelo"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Cabina real C-47",
+          "uso": "Aeronave histórica"
+        }
+      ]
+    },
+    {
+      "id": "EF-008",
+      "nombre": "Simuladores UAVs Quimbaya y Coellum",
+      "empresa": "Palcort Tech S.A.S.",
+      "ciudad": "Bogotá",
+      "tipo": "Simulador drones",
+      "tech_stack": [
+        {
+          "tipo": "software",
+          "nombre": "Propietario",
+          "uso": "Control drones"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Estaciones control UAV",
+          "uso": "Consolas réplica"
+        }
+      ]
+    },
+    {
+      "id": "EF-009",
+      "nombre": "Simulador LYNX",
+      "empresa": "CODALTEC",
+      "ciudad": "Bogotá",
+      "tipo": "Simulador tiro militar",
+      "cliente": "Min Defensa",
+      "tech_stack": [
+        {
+          "tipo": "software",
+          "nombre": "Propietario",
+          "uso": "Simulación tiro"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Réplicas armas CO2",
+          "uso": "Realismo"
+        }
+      ]
+    },
+    {
+      "id": "EF-010",
+      "nombre": "S.I.M.O.N.",
+      "empresa": "CODALTEC",
+      "ciudad": "Bogotá",
+      "tipo": "Simulador tiro mejorado",
+      "resultados": "2,169 alumnos, ahorro $145M",
+      "tech_stack": [
+        {
+          "tipo": "software",
+          "nombre": "Propietario S.I.M.O.N.",
+          "uso": "Simulación tiro mejorado"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Réplicas de armas",
+          "uso": "Múltiples modelos"
+        },
+        {
+          "tipo": "resultados",
+          "nombre": "2,169 alumnos",
+          "ahorro": "145M COP"
+        }
+      ]
+    },
+    {
+      "id": "EF-011",
+      "nombre": "Simuladores Avianca",
+      "empresa": "NEDIAR S.A.S.",
+      "ciudad": "Medellín",
+      "tipo": "Simulador aeronáutico",
+      "tech_stack": [
+        {
+          "tipo": "software",
+          "nombre": "Propietario",
+          "uso": "Entrenamiento aeronáutico"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Cabinas avión réplica",
+          "uso": "Avianca"
+        }
+      ]
+    },
+    {
+      "id": "EF-012",
+      "nombre": "Simuladores Corona AR",
+      "empresa": "NEDIAR S.A.S.",
+      "ciudad": "Medellín",
+      "tipo": "Simulador industrial AR",
+      "tech_stack": [
+        {
+          "tipo": "framework",
+          "nombre": "Realidad Aumentada",
+          "uso": "AR industrial"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Sensores industriales",
+          "uso": "Tracking"
+        }
+      ]
+    },
+    {
+      "id": "EF-013",
+      "nombre": "Latidos de Colombia",
+      "empresa": "Kaleido Lab + Demiurgo LATAM",
+      "ciudad": "Cali",
+      "motor": "Unity",
+      "tipo": "Instalación museográfica",
+      "ubicacion": "Maloka",
+      "tech_stack": [
+        {
+          "tipo": "motor",
+          "nombre": "Unity",
+          "version": null
+        },
+        {
+          "tipo": "framework",
+          "nombre": "Realidad Aumentada",
+          "uso": "AR sobre dibujos"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Domo proyección interactivo",
+          "uso": "Maloka"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Sistema escaneo tiempo real",
+          "uso": "Captura dibujos"
+        },
+        {
+          "tipo": "desarrollador",
+          "nombre": "Kaleido Lab + Demiurgo LATAM",
+          "ciudad": "Cali"
+        }
+      ]
+    },
+    {
+      "id": "EF-014",
+      "nombre": "BORONDO",
+      "empresa": "Kaleido Lab",
+      "ciudad": "Cali",
+      "motor": "Unity",
+      "tipo": "AR patrimonio",
+      "premio": "Crea Digital 2021",
+      "tech_stack": [
+        {
+          "tipo": "motor",
+          "nombre": "Unity",
+          "version": null
+        },
+        {
+          "tipo": "framework",
+          "nombre": "ARCore",
+          "uso": "Android AR"
+        },
+        {
+          "tipo": "framework",
+          "nombre": "ARKit",
+          "uso": "iOS AR"
+        },
+        {
+          "tipo": "premio",
+          "nombre": "Crea Digital 2021",
+          "entidad": "MinTIC"
+        }
+      ]
+    },
+    {
+      "id": "EF-015",
+      "nombre": "Reino Alado",
+      "empresa": "Kaleido Lab",
+      "ciudad": "Cali",
+      "motor": "Unity",
+      "tipo": "Experiencia inmersiva",
+      "tech_stack": [
+        {
+          "tipo": "motor",
+          "nombre": "Unity",
+          "version": null
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Sistema de proyección",
+          "uso": "Inmersión visual"
+        },
+        {
+          "tipo": "contenido",
+          "nombre": "Metaverso aves",
+          "tema": "Biodiversidad"
+        }
+      ]
+    },
+    {
+      "id": "EF-016",
+      "nombre": "Bus Interactivo Banco de Bogotá",
+      "empresa": "Naddie S.A.S.",
+      "motor": "Unity",
+      "tipo": "Instalación móvil",
+      "tech_stack": [
+        {
+          "tipo": "motor",
+          "nombre": "Unity",
+          "version": null
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Pantallas táctiles",
+          "uso": "Interacción"
+        },
+        {
+          "tipo": "instalacion",
+          "nombre": "Bus móvil",
+          "cliente": "Banco de Bogotá"
+        }
+      ]
+    },
+    {
+      "id": "EF-017",
+      "nombre": "Jardín Paleontológico Interactivo",
+      "empresa": "Naddie S.A.S.",
+      "motor": "Unity",
+      "tipo": "AR outdoor",
+      "ubicacion": "UN Villa de Leyva",
+      "tech_stack": [
+        {
+          "tipo": "motor",
+          "nombre": "Unity",
+          "version": null
+        },
+        {
+          "tipo": "framework",
+          "nombre": "ARCore/ARKit",
+          "uso": "AR móvil"
+        },
+        {
+          "tipo": "framework",
+          "nombre": "Geolocalización GPS",
+          "uso": "Tracking outdoor"
+        }
+      ]
+    },
+    {
+      "id": "EF-018",
+      "nombre": "Experiencias Museo Salle",
+      "empresa": "Naddie S.A.S.",
+      "motor": "Unity",
+      "tipo": "Instalación museográfica",
+      "tech_stack": [
+        {
+          "tipo": "motor",
+          "nombre": "Unity",
+          "version": null
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Proyecciones interactivas",
+          "uso": "Museo"
+        },
+        {
+          "tipo": "portafolio",
+          "nombre": "200+ experiencias",
+          "alcance": "Nacional/Internacional"
+        }
+      ]
+    },
+    {
+      "id": "EF-019",
+      "nombre": "Simuladores VR con Motion Base",
+      "empresa": "Dream House Studios S.A.S.",
+      "ciudad": "Medellín",
+      "motor": "Unreal",
+      "tipo": "VR con movimiento físico",
+      "tech_stack": [
+        {
+          "tipo": "motor",
+          "nombre": "Unreal Engine",
+          "version": null
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Motion Base",
+          "uso": "Plataforma movimiento"
+        },
+        {
+          "tipo": "framework",
+          "nombre": "VR SDK",
+          "uso": "Realidad virtual"
+        }
+      ]
+    },
+    {
+      "id": "EF-020",
+      "nombre": "Simulador de Aplicación de Insulina BD",
+      "empresa": "Immersive VR Media S.A.S.",
+      "motor": "Unity",
+      "tipo": "Simulador médico VR",
+      "tech_stack": [
+        {
+          "tipo": "motor",
+          "nombre": "Unity",
+          "version": null
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Gafas VR",
+          "uso": "Inmersión"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Réplica jeringa sensores",
+          "uso": "Haptic feedback"
+        }
+      ]
+    },
+    {
+      "id": "EF-021",
+      "nombre": "Simulador BPT Desactivación de Minas",
+      "empresa": "Immersive VR Media S.A.S.",
+      "motor": "Unity",
+      "tipo": "Simulador militar VR",
+      "tech_stack": [
+        {
+          "tipo": "motor",
+          "nombre": "Unity",
+          "version": null
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Gafas VR",
+          "uso": "Entrenamiento militar"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Controladores especializados",
+          "uso": "Herramientas"
+        }
+      ]
+    },
+    {
+      "id": "EF-022",
+      "nombre": "Experiencias VR Argos y Celsia",
+      "empresa": "Indie Level Studio S.A.S.",
+      "nit": "900906598",
+      "ciudad": "Medellín",
+      "motor": "Unity",
+      "resultados": "90% reducción accidentalidad",
+      "tech_stack": [
+        {
+          "tipo": "motor",
+          "nombre": "Unity",
+          "version": null
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Gafas VR",
+          "uso": "Serious games"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Sensores room-scale",
+          "uso": "Tracking"
+        },
+        {
+          "tipo": "resultados",
+          "nombre": "90% reducción accidentes",
+          "cliente": "Argos/Celsia"
+        }
+      ]
+    },
+    {
+      "id": "EF-023",
+      "nombre": "Ciudadela Universitaria @medellín",
+      "empresa": "Indie Level Studio S.A.S.",
+      "nit": "900906598",
+      "ciudad": "Medellín",
+      "motor": "Unity",
+      "tipo": "Metaverso educativo",
+      "tech_stack": [
+        {
+          "tipo": "motor",
+          "nombre": "Unity",
+          "version": null
+        },
+        {
+          "tipo": "plataforma",
+          "nombre": "Metaverso educativo",
+          "uso": "Web/PC/móvil"
+        }
+      ]
+    },
+    {
+      "id": "EF-024",
+      "nombre": "A Tale of Two Seeds",
+      "empresa": "Atractor (colectivo)",
+      "ciudad": "Bogotá",
+      "tipo": "Instalación sonora",
+      "premio": "Golden Nica Ars Electronica 2023",
+      "tech_stack": [
+        {
+          "tipo": "software",
+          "nombre": "Personalizado",
+          "uso": "Sonificación datos"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Micrófonos de contacto",
+          "uso": "Vibraciones plantas"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Detectores ultrasónicos",
+          "uso": "Actividad vegetal"
+        },
+        {
+          "tipo": "premio",
+          "nombre": "Golden Nica Ars Electronica",
+          "año": 2023
+        }
+      ]
+    },
+    {
+      "id": "EF-025",
+      "nombre": "Los Migrantes",
+      "empresa": "Atractor (colectivo)",
+      "ciudad": "Bogotá",
+      "anio": "2018-2019",
+      "tipo": "Videojuego-performance",
+      "exhibiciones": "MoMA NY",
+      "tech_stack": [
+        {
+          "tipo": "software",
+          "nombre": "Personalizado",
+          "uso": "Videojuego-performance"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Prótesis físicas",
+          "uso": "Control interactivo"
+        }
+      ]
+    },
+    {
+      "id": "EF-026",
+      "nombre": "Gamelán Electrónico",
+      "artista": "Alba Fernanda Triana",
+      "tipo": "Instrumento musical interactivo",
+      "tech_stack": [
+        {
+          "tipo": "software",
+          "nombre": "Personalizado",
+          "uso": "Procesamiento sonoro"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Caja luz sensores sombra",
+          "uso": "Control gestual"
+        }
+      ]
+    },
+    {
+      "id": "EF-027",
+      "nombre": "Harmonic Motion",
+      "artista": "Alba Fernanda Triana",
+      "tipo": "Instalación audiovisual",
+      "premio": "Award of Distinction Ars Electronica",
+      "tech_stack": [
+        {
+          "tipo": "software",
+          "nombre": "Personalizado",
+          "uso": "Audiovisual reactivo"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Sensores de movimiento",
+          "uso": "Captura corporal"
+        }
+      ]
+    },
+    {
+      "id": "EF-028",
+      "nombre": "Ballstrike",
+      "empresa": "Hello Park S.A.S.",
+      "ciudad": "Bogotá",
+      "tipo": "Piscina pelotas proyección",
+      "tech_stack": [
+        {
+          "tipo": "software",
+          "nombre": "Propietario",
+          "uso": "Proyección interactiva"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Proyectores",
+          "uso": "Piscina de pelotas"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Tracking impacto",
+          "uso": "Detección golpes"
+        }
+      ]
+    },
+    {
+      "id": "EF-029",
+      "nombre": "Live Pictures",
+      "empresa": "Hello Park S.A.S.",
+      "ciudad": "Bogotá",
+      "tipo": "Mesa dibujo animado",
+      "tech_stack": [
+        {
+          "tipo": "software",
+          "nombre": "Propietario",
+          "uso": "Escaneo y animación"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Sistema escaneo dibujos",
+          "uso": "Tiempo real"
+        }
+      ]
+    },
+    {
+      "id": "EF-030",
+      "nombre": "Trampolines Interactivos",
+      "empresa": "Hello Park S.A.S.",
+      "ciudad": "Bogotá",
+      "tipo": "Juego proyectado",
+      "tech_stack": [
+        {
+          "tipo": "software",
+          "nombre": "Propietario",
+          "uso": "Juegos trampolín"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Sensores de impacto",
+          "uso": "Detección saltos"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Proyección en suelo",
+          "uso": "Visualización"
+        }
+      ]
+    },
+    {
+      "id": "EF-031",
+      "nombre": "Escape Rooms VR Colaborativos",
+      "empresa": "Virtual Room Bogotá",
+      "ciudad": "Bogotá",
+      "motor": "Unity/Unreal",
+      "tipo": "Escape room VR",
+      "tech_stack": [
+        {
+          "tipo": "motor",
+          "nombre": "Unity/Unreal",
+          "version": null
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "HTC Vive",
+          "uso": "VR headsets"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Tracking room-scale",
+          "uso": "Sala completa"
+        }
+      ]
+    },
+    {
+      "id": "EF-032",
+      "nombre": "3D Mapping Corporativo",
+      "empresa": "Crisalidastudios S.A.S.",
+      "ciudad": "Bogotá",
+      "tipo": "Video mapping",
+      "hardware": "Proyectores 10K-31K lúmenes",
+      "tech_stack": [
+        {
+          "tipo": "software",
+          "nombre": "MadMapper/Resolume/TouchDesigner",
+          "uso": "Video mapping"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Proyectores 10K-31K lúmenes",
+          "uso": "Alta potencia"
+        }
+      ]
+    },
+    {
+      "id": "EF-033",
+      "nombre": "Mapping Interactivo Reactivo",
+      "empresa": "Visualma S.A.S.",
+      "tipo": "Video mapping con sensores",
+      "tech_stack": [
+        {
+          "tipo": "software",
+          "nombre": "Software de mapping",
+          "uso": "Proyección reactiva"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Proyectores",
+          "uso": "Visualización"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Sensores de movimiento",
+          "uso": "Interactividad"
+        }
+      ]
+    },
+    {
+      "id": "EF-034",
+      "nombre": "Museos Interactivos Touch",
+      "empresa": "Cubensis Project S.A.S.",
+      "motor": "Unity",
+      "tipo": "Instalaciones museográficas",
+      "tech_stack": [
+        {
+          "tipo": "motor",
+          "nombre": "Unity",
+          "version": null
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Pantallas multitáctiles",
+          "uso": "Touch"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Magic books",
+          "uso": "Libros interactivos"
+        }
+      ]
+    },
+    {
+      "id": "EF-035",
+      "nombre": "Exhibits VR con Spark AR",
+      "empresa": "Experimentum S.A.S.",
+      "motor": "Unity/Spark AR",
+      "tipo": "Instalaciones híbridas",
+      "tech_stack": [
+        {
+          "tipo": "motor",
+          "nombre": "Unity",
+          "version": null
+        },
+        {
+          "tipo": "framework",
+          "nombre": "Spark AR",
+          "uso": "Meta AR"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Exhibits mecánicos",
+          "uso": "Híbrido físico"
+        }
+      ]
+    }
+  ],
+  "exposicionesMuseograficas": [
+    {
+      "id": "EM-001",
+      "nombre": "Cine Domo",
+      "museo": "Maloka",
+      "nit": "830.040.745-0",
+      "ciudad": "Bogotá",
+      "anio": 1998,
+      "tecnologia": "5 proyectores 4K 30K lúmenes",
+      "capacidad": "309 personas",
+      "tech_stack": [
+        {
+          "tipo": "hardware",
+          "nombre": "5 proyectores Christie 4K",
+          "especificacion": "30,000 lúmenes c/u"
+        },
+        {
+          "tipo": "software",
+          "nombre": "Sistema fulldome digital",
+          "uso": "Proyección 180°"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Sistema sonido 30,000 watts",
+          "uso": "Audio inmersivo"
+        },
+        {
+          "tipo": "infraestructura",
+          "nombre": "Domo 22m diámetro",
+          "capacidad": "309 personas"
+        }
+      ]
+    },
+    {
+      "id": "EM-002",
+      "nombre": "Latidos de Colombia",
+      "museo": "Maloka",
+      "nit": "830.040.745-0",
+      "ciudad": "Bogotá",
+      "anio": 2024,
+      "tecnologia": "Unity, AR, proyección inmersiva",
+      "tech_stack": [
+        {
+          "tipo": "motor",
+          "nombre": "Unity",
+          "desarrollador": "Kaleido Lab"
+        },
+        {
+          "tipo": "framework",
+          "nombre": "Realidad Aumentada",
+          "uso": "Interacción"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Proyección inmersiva",
+          "uso": "Domo interactivo"
+        },
+        {
+          "tipo": "software",
+          "nombre": "Escaneo tiempo real",
+          "desarrollador": "Demiurgo LATAM"
+        }
+      ]
+    },
+    {
+      "id": "EM-003",
+      "nombre": "Sala Percepción",
+      "museo": "Maloka",
+      "nit": "830.040.745-0",
+      "ciudad": "Bogotá",
+      "tecnologia": "Ilusiones ópticas, Habitación Ames",
+      "tech_stack": [
+        {
+          "tipo": "instalacion",
+          "nombre": "Ilusiones ópticas",
+          "uso": "Efectos visuales"
+        },
+        {
+          "tipo": "instalacion",
+          "nombre": "Habitación Ames",
+          "uso": "Distorsión perspectiva"
+        }
+      ]
+    },
+    {
+      "id": "EM-004",
+      "nombre": "App Museo del Oro",
+      "museo": "Museo del Oro",
+      "nit": "860.007.738-9",
+      "ciudad": "Bogotá",
+      "anio": 2020,
+      "desarrollador": "GVAM España",
+      "tech_stack": [
+        {
+          "tipo": "plataforma",
+          "nombre": "App móvil nativa",
+          "so": "iOS/Android"
+        },
+        {
+          "tipo": "software",
+          "nombre": "Audioguías 5 idiomas",
+          "idiomas": "ES/EN/FR/PT/LSC"
+        },
+        {
+          "tipo": "desarrollador",
+          "nombre": "GVAM España",
+          "financiador": "ACOARTE"
+        }
+      ]
+    },
+    {
+      "id": "EM-005",
+      "nombre": "El Exploratorio",
+      "museo": "Museo del Oro",
+      "nit": "860.007.738-9",
+      "ciudad": "Bogotá",
+      "anio": 2008,
+      "tecnologia": "Proyecciones piso, maquetas interactivas",
+      "tech_stack": [
+        {
+          "tipo": "hardware",
+          "nombre": "Proyecciones al piso",
+          "uso": "Interactivas"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Maquetas interactivas",
+          "uso": "Módulos táctiles"
+        }
+      ]
+    },
+    {
+      "id": "EM-006",
+      "nombre": "La Ofrenda",
+      "museo": "Museo del Oro",
+      "nit": "860.007.738-9",
+      "ciudad": "Bogotá",
+      "anio": 2008,
+      "tecnologia": "Luz, sonido, vitrinas cilíndricas",
+      "tech_stack": [
+        {
+          "tipo": "hardware",
+          "nombre": "Iluminación programada",
+          "uso": "Efectos lumínicos"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Sonido envolvente",
+          "uso": "Ambientación"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "6 vitrinas cilíndricas",
+          "uso": "Proyección"
+        }
+      ]
+    },
+    {
+      "id": "EM-007",
+      "nombre": "Google Arts & Culture - Oro",
+      "museo": "Museo del Oro",
+      "nit": "860.007.738-9",
+      "ciudad": "Bogotá",
+      "tecnologia": "Fotografía 360°, gigapíxeles 7B",
+      "tech_stack": [
+        {
+          "tipo": "hardware",
+          "nombre": "Art Camera Google",
+          "uso": "Fotografía gigapixel"
+        },
+        {
+          "tipo": "software",
+          "nombre": "Fotografía 360°",
+          "uso": "Tours virtuales"
+        },
+        {
+          "tipo": "plataforma",
+          "nombre": "Google Arts & Culture",
+          "resolucion": "7B píxeles"
+        }
+      ]
+    },
+    {
+      "id": "EM-008",
+      "nombre": "Domo Digital Digistar 7",
+      "museo": "Planetario Bogotá",
+      "ciudad": "Bogotá",
+      "anio": 2021,
+      "tecnologia": "2 proyectores Christie 4K 30K lúmenes",
+      "capacidad": "700 personas",
+      "tech_stack": [
+        {
+          "tipo": "software",
+          "nombre": "Digistar 7",
+          "fabricante": "Evans & Sutherland"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "2 Christie Griffyn 4K 30K",
+          "resolucion": "4K"
+        },
+        {
+          "tipo": "infraestructura",
+          "nombre": "Domo 23m",
+          "capacidad": "700 personas"
+        }
+      ]
+    },
+    {
+      "id": "EM-009",
+      "nombre": "Museo del Espacio",
+      "museo": "Planetario Bogotá",
+      "ciudad": "Bogotá",
+      "anio": 2013,
+      "tecnologia": "35 módulos interactivos",
+      "desarrollador": "Parque Explora",
+      "tech_stack": [
+        {
+          "tipo": "Visuales/audiovisuales",
+          "nombre": "35 módulos interactivos"
+        },
+        {
+          "tipo": "infraestructura",
+          "nombre": "650 m²",
+          "visitantes": "1,000 diarios"
+        },
+        {
+          "tipo": "desarrollador",
+          "nombre": "Parque Explora",
+          "metodo": "Licitación"
+        }
+      ]
+    },
+    {
+      "id": "EM-010",
+      "nombre": "Salas Interactivas 2024",
+      "museo": "Planetario Bogotá",
+      "ciudad": "Bogotá",
+      "anio": 2024,
+      "inversion": "967M COP",
+      "tech_stack": [
+        {
+          "tipo": "hardware",
+          "nombre": "Pantallas táctiles",
+          "uso": "Interacción"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Módulos interactivos",
+          "uso": "Exhibiciones"
+        },
+        {
+          "tipo": "financiamiento",
+          "nombre": "SGR + IDARTES",
+          "monto": "967M COP"
+        }
+      ]
+    },
+    {
+      "id": "EM-011",
+      "nombre": "Festival Domo Lleno",
+      "museo": "Planetario Bogotá",
+      "ciudad": "Bogotá",
+      "frecuencia": "Anual desde 2017",
+      "tipo": "Festival arte digital",
+      "tech_stack": [
+        {
+          "tipo": "software",
+          "nombre": "Video experimental fulldome",
+          "uso": "Inmersivo"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Dispositivos móviles sincronizados",
+          "uso": "Colectivo"
+        },
+        {
+          "tipo": "organizador",
+          "nombre": "IDARTES",
+          "linea": "Arte, Ciencia y Tecnología"
+        }
+      ]
+    },
+    {
+      "id": "EM-012",
+      "nombre": "Inmersivos Sonoros",
+      "museo": "Planetario Bogotá",
+      "ciudad": "Bogotá",
+      "anio": 2025,
+      "tecnologia": "Sonido envolvente, proyección 360°",
+      "tech_stack": [
+        {
+          "tipo": "hardware",
+          "nombre": "Sonido envolvente",
+          "uso": "Audio inmersivo"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Proyección 360°",
+          "uso": "Visual fulldome"
+        },
+        {
+          "tipo": "French Touch/Pop/Rock/Metal",
+          "nombre": "Conciertos inmersivos"
+        }
+      ]
+    },
+    {
+      "id": "EM-013",
+      "nombre": "Planetario de Medellín",
+      "museo": "Parque Explora",
+      "ciudad": "Medellín",
+      "anio": "1984/2011",
+      "tecnologia": "2 proyectores 4K-6K, sonido 7.1",
+      "tech_stack": [
+        {
+          "tipo": "hardware",
+          "nombre": "Red 13 computadores",
+          "uso": "Sistema integrado"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "2 proyectores 4K-6K",
+          "uso": "Fulldome"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Sonido 7.1 canales",
+          "uso": "Envolvente"
+        },
+        {
+          "tipo": "infraestructura",
+          "nombre": "Domo 15m",
+          "capacidad": "300 personas"
+        }
+      ]
+    },
+    {
+      "id": "EM-014",
+      "nombre": "Dinosaurios: Un imperio sin tiempo",
+      "museo": "Parque Explora",
+      "ciudad": "Medellín",
+      "anio": 2014,
+      "tecnologia": "Video mapping animatrónicos",
+      "desarrollador": "Franco Oberti",
+      "tech_stack": [
+        {
+          "tipo": "software",
+          "nombre": "Video mapping personalizado",
+          "uso": "Sobre animatrónicos"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "6 dinosaurios animatrónicos",
+          "movimiento": "Mecánico"
+        },
+        {
+          "tipo": "software",
+          "nombre": "Sincronización mapping",
+          "innovacion": "Pionero Colombia"
+        },
+        {
+          "tipo": "desarrollador",
+          "nombre": "Franco Oberti",
+          "profesion": "Ingeniero electrónico"
+        }
+      ]
+    },
+    {
+      "id": "EM-015",
+      "nombre": "Sala Música",
+      "museo": "Parque Explora",
+      "ciudad": "Medellín",
+      "anio": "2018-2019",
+      "inversion": "455M COP TigoUne",
+      "experiencias": "30+",
+      "tech_stack": [
+        {
+          "tipo": "hardware",
+          "nombre": "Sensores vibración",
+          "uso": "Experiencia auditiva accesible"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Audio envolvente",
+          "uso": "Inmersión"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Pantallas táctiles",
+          "uso": "Interacción"
+        },
+        {
+          "tipo": "financiamiento",
+          "nombre": "TigoUne",
+          "monto": "455M COP"
+        }
+      ]
+    },
+    {
+      "id": "EM-016",
+      "nombre": "Ecosistemas, Unidades de Vida",
+      "museo": "Museo del Agua EPM",
+      "ciudad": "Medellín",
+      "anio": 2012,
+      "tecnologia": "Climatización diferenciada",
+      "desarrollador": "Maloka",
+      "tech_stack": [
+        {
+          "tipo": "hardware",
+          "nombre": "Climatización diferenciada",
+          "uso": "Simulación térmica"
+        },
+        {
+          "tipo": "instalacion",
+          "nombre": "3 pisos térmicos",
+          "niveles": "Litoral/Andino/Páramo"
+        },
+        {
+          "tipo": "desarrollador",
+          "nombre": "Maloka + EAFIT",
+          "ciudad": "Medellín"
+        }
+      ]
+    },
+    {
+      "id": "EM-017",
+      "nombre": "Evolución del Planeta Tierra",
+      "museo": "Museo del Agua EPM",
+      "ciudad": "Medellín",
+      "anio": 2012,
+      "tecnologia": "Proyecciones inmersivas",
+      "tech_stack": [
+        {
+          "tipo": "hardware",
+          "nombre": "Proyecciones inmersivas",
+          "uso": "Narrativa visual"
+        },
+        {
+          "tipo": "Viaje temporal",
+          "nombre": "Big Bang a Prehistoria"
+        },
+        {
+          "tipo": "desarrollador",
+          "nombre": "Corporación Maloka",
+          "ciudad": "Bogotá"
+        }
+      ]
+    },
+    {
+      "id": "EM-018",
+      "nombre": "Sala Planeta Azul",
+      "museo": "Museo del Agua EPM",
+      "ciudad": "Medellín",
+      "anio": 2012,
+      "tecnologia": "Calculadora huella hídrica",
+      "tech_stack": [
+        {
+          "tipo": "hardware",
+          "nombre": "Pantallas interactivas",
+          "uso": "Información"
+        },
+        {
+          "tipo": "software",
+          "nombre": "Calculadora huella hídrica",
+          "uso": "Educación"
+        },
+        {
+          "tipo": "desarrollador",
+          "nombre": "Corporación Maloka",
+          "ciudad": "Bogotá"
+        }
+      ]
+    },
+    {
+      "id": "EM-019",
+      "nombre": "Sala Gabriel García Márquez",
+      "museo": "Museo del Caribe",
+      "ciudad": "Barranquilla",
+      "anio": 2009,
+      "tecnologia": "Proyecciones inmersivas",
+      "desarrollador": "Marcello Dantas",
+      "tech_stack": [
+        {
+          "tipo": "hardware",
+          "nombre": "Proyecciones paredes/techo",
+          "uso": "Envolvente"
+        },
+        {
+          "tipo": "software",
+          "nombre": "Animaciones sobre periódicos",
+          "efecto": "Personajes vivos"
+        },
+        {
+          "tipo": "desarrollador",
+          "nombre": "Marcello Dantas",
+          "pais": "Brasil"
+        }
+      ]
+    },
+    {
+      "id": "EM-020",
+      "nombre": "Hologramas de Baile",
+      "museo": "Museo del Caribe",
+      "ciudad": "Barranquilla",
+      "anio": 2009,
+      "tecnologia": "Hologramas tamaño real",
+      "tech_stack": [
+        {
+          "tipo": "hardware",
+          "nombre": "Hologramas tamaño real",
+          "uso": "Bailadores virtuales"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Sonido envolvente",
+          "uso": "Música tradicional"
+        },
+        {
+          "tipo": "Bullerengue/Cumbia/Porro",
+          "nombre": "5 bailes"
+        }
+      ]
+    },
+    {
+      "id": "EM-021",
+      "nombre": "Sala de la Naturaleza",
+      "museo": "Museo del Caribe",
+      "ciudad": "Barranquilla",
+      "anio": 2009,
+      "tecnologia": "Pantalla panorámica",
+      "tech_stack": [
+        {
+          "tipo": "hardware",
+          "nombre": "Pantalla panorámica",
+          "uso": "Gran formato"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Efectos sonoros",
+          "uso": "Ambientación natural"
+        }
+      ]
+    },
+    {
+      "id": "EM-022",
+      "nombre": "Sala de la Palabra - Cápsulas",
+      "museo": "Museo del Caribe",
+      "ciudad": "Barranquilla",
+      "anio": 2009,
+      "tecnologia": "Pantallas tejidas, cápsulas auditivas",
+      "tech_stack": [
+        {
+          "tipo": "hardware",
+          "nombre": "Pantallas tejidas proyección",
+          "uso": "Visual textil"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Cápsulas auditivas",
+          "uso": "Escucha individual"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Biombos interactivos",
+          "uso": "Separación"
+        }
+      ]
+    },
+    {
+      "id": "EM-023",
+      "nombre": "Sala de la Gente - Ritual",
+      "museo": "Museo del Caribe",
+      "ciudad": "Barranquilla",
+      "anio": 2009,
+      "tecnologia": "Proyecciones luz cenital",
+      "tech_stack": [
+        {
+          "tipo": "hardware",
+          "nombre": "Proyección cenital multicolor",
+          "uso": "Iluminación"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Audio mamos ikün",
+          "uso": "Sonido ritual"
+        }
+      ]
+    },
+    {
+      "id": "EM-024",
+      "nombre": "Sala de la Acción",
+      "museo": "Museo del Caribe",
+      "ciudad": "Barranquilla",
+      "anio": 2009,
+      "tecnologia": "Mesa proyección interactiva",
+      "tech_stack": [
+        {
+          "tipo": "hardware",
+          "nombre": "Documentales interactivos",
+          "uso": "Audiovisual"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Mesa proyección interactiva",
+          "uso": "Cocina virtual"
+        }
+      ]
+    },
+    {
+      "id": "EM-025",
+      "nombre": "Medellín: Memorias de Violencia",
+      "museo": "Museo Casa de la Memoria",
+      "ciudad": "Medellín",
+      "tecnologia": "100+ dispositivos digitales",
+      "experiencias": "16",
+      "tech_stack": [
+        {
+          "tipo": "hardware",
+          "nombre": "100+ dispositivos digitales",
+          "distribucion": "16 experiencias"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Mapas touchscreen",
+          "uso": "Interactivos"
+        },
+        {
+          "tipo": "Video/audio",
+          "nombre": "Sistema testimonios"
+        },
+        {
+          "tipo": "software",
+          "nombre": "Audioguía 3 idiomas",
+          "idiomas": "ES/EN/FR"
+        }
+      ]
+    },
+    {
+      "id": "EM-026",
+      "nombre": "Centro CRAM",
+      "museo": "Museo Casa de la Memoria",
+      "ciudad": "Medellín",
+      "tecnologia": "Computadoras táctiles",
+      "tech_stack": [
+        {
+          "tipo": "hardware",
+          "nombre": "Computadoras táctiles",
+          "uso": "Investigación"
+        },
+        {
+          "tipo": "software",
+          "nombre": "Base de datos digital",
+          "contenido": "Testimonios/Documentos"
+        }
+      ]
+    },
+    {
+      "id": "EM-027",
+      "nombre": "Recorridos Virtuales 360°",
+      "museo": "Museo Nacional",
+      "ciudad": "Bogotá",
+      "anio": "2020+",
+      "exposiciones": "5+",
+      "tech_stack": [
+        {
+          "tipo": "software",
+          "nombre": "Fotografía 360° interactiva",
+          "uso": "Tours virtuales"
+        },
+        {
+          "tipo": "plataforma",
+          "nombre": "Web",
+          "uso": "Acceso online"
+        }
+      ]
+    },
+    {
+      "id": "EM-028",
+      "nombre": "Google Arts & Culture - Nacional",
+      "museo": "Museo Nacional",
+      "ciudad": "Bogotá",
+      "piezas": "20,000+",
+      "tech_stack": [
+        {
+          "tipo": "software",
+          "nombre": "Digitalización alta resolución",
+          "uso": "Preservación"
+        },
+        {
+          "tipo": "plataforma",
+          "nombre": "Google Arts & Culture",
+          "piezas": "20,000+"
+        }
+      ]
+    },
+    {
+      "id": "EM-029",
+      "nombre": "Un Placer Incierto: Artes del Tiempo",
+      "museo": "MAMBO",
+      "ciudad": "Bogotá",
+      "anio": "2022-2023",
+      "artistas": "35+",
+      "tech_stack": [
+        {
+          "tipo": "contenido",
+          "nombre": "Videoarte",
+          "formato": "Multicanal"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Proyecciones inmersivas",
+          "uso": "Múltiples pantallas"
+        }
+      ]
+    },
+    {
+      "id": "EM-030",
+      "nombre": "Residencia Digital Bogotá (re)imagined",
+      "museo": "MAMBO",
+      "ciudad": "Bogotá",
+      "anio": 2024,
+      "tecnologia": "Inteligencia Artificial",
+      "tech_stack": [
+        {
+          "tipo": "software",
+          "nombre": "Inteligencia Artificial",
+          "uso": "Análisis imágenes"
+        },
+        {
+          "tipo": "software",
+          "nombre": "Apps interactivas",
+          "uso": "Curaduría IA"
+        },
+        {
+          "tipo": "colaboracion",
+          "nombre": "U. Zürich",
+          "programa": "Digital Visual Studies"
+        }
+      ]
+    },
+    {
+      "id": "EM-031",
+      "nombre": "Colección Digital MAMBO",
+      "museo": "MAMBO",
+      "ciudad": "Bogotá",
+      "obras": "3,633",
+      "tech_stack": [
+        {
+          "tipo": "software",
+          "nombre": "Base datos digital",
+          "uso": "Gestión colección"
+        },
+        {
+          "tipo": "plataforma",
+          "nombre": "Portal web",
+          "obras": "3,633"
+        }
+      ]
+    },
+    {
+      "id": "EM-032",
+      "nombre": "Recorridos Virtuales 360° Matterport",
+      "museo": "Museo de Antioquia",
+      "ciudad": "Medellín",
+      "espacios": "14",
+      "desarrollador": "Cámara Lúcida",
+      "tech_stack": [
+        {
+          "tipo": "plataforma",
+          "nombre": "Matterport",
+          "uso": "Escaneo 3D"
+        },
+        {
+          "tipo": "hardware",
+          "nombre": "Cámara Matterport",
+          "uso": "Captura espacial"
+        },
+        {
+          "tipo": "software",
+          "nombre": "Reconstrucción 3D",
+          "espacios": "14"
+        },
+        {
+          "tipo": "desarrollador",
+          "nombre": "Cámara Lúcida",
+          "pais": "Colombia"
+        }
+      ]
+    },
+    {
+      "id": "EM-033",
+      "nombre": "Invocando fantasmas de la Modernidad",
+      "museo": "MAMM",
+      "ciudad": "Medellín",
+      "anio": 2025,
+      "colaboracion": "ITM",
+      "tech_stack": [
+        {
+          "tipo": "software",
+          "nombre": "Modelos digitales exposición",
+          "uso": "Patrimonio digital"
+        },
+        {
+          "tipo": "colaboracion",
+          "nombre": "ITM",
+          "ciudad": "Medellín"
+        }
+      ]
+    },
+    {
+      "id": "EM-034",
+      "nombre": "Umbral de Resonancia",
+      "museo": "MAMM",
+      "ciudad": "Medellín",
+      "anio": 2025,
+      "tecnologia": "Instalaciones sonoras interactivas",
+      "tech_stack": [
+        {
+          "tipo": "hardware",
+          "nombre": "Instalaciones sonoras interactivas",
+          "uso": "Sensores gestos"
+        },
+        {
+          "tipo": "software",
+          "nombre": "Procesamiento sonido reactivo",
+          "uso": "Movimiento"
+        },
+        {
+          "tipo": "colaboracion",
+          "nombre": "Museo Ciencias Naturales La Salle",
+          "contenido": "Banco sonidos"
+        }
+      ]
+    },
+    {
+      "id": "EM-035",
+      "nombre": "BogotanicApp",
+      "museo": "Jardín Botánico Bogotá",
+      "ciudad": "Bogotá",
+      "anio": 2022,
+      "tecnologia": "AR 7 estaciones",
+      "tech_stack": [
+        {
+          "tipo": "framework",
+          "nombre": "Realidad Aumentada",
+          "uso": "AR jardín"
+        },
+        {
+          "tipo": "software",
+          "nombre": "7 estaciones temáticas",
+          "tema": "Energías renovables"
+        },
+        {
+          "tipo": "plataforma",
+          "nombre": "App móvil",
+          "so": "iOS/Android"
+        },
+        {
+          "tipo": "financiamiento",
+          "nombre": "USAID",
+          "programa": "Energía Limpia Colombia"
+        }
+      ]
+    },
+    {
+      "id": "EM-036",
+      "nombre": "Recorrido La Candelaria AR",
+      "entidad": "Archivo General Nación",
+      "ciudad": "Bogotá",
+      "anio": 2021,
+      "puntos": "19",
+      "tech_stack": [
+        {
+          "tipo": "framework",
+          "nombre": "Realidad Aumentada",
+          "uso": "Patrimonio"
+        },
+        {
+          "tipo": "framework",
+          "nombre": "GPS",
+          "uso": "Geolocalización"
+        },
+        {
+          "tipo": "software",
+          "nombre": "Mapa interactivo",
+          "puntos": "19"
+        }
+      ]
+    },
+    {
+      "id": "EM-037",
+      "nombre": "Museo del Oro Zenú Digital",
+      "museo": "Museo del Oro Zenú",
+      "nit": "860.007.738-9",
+      "ciudad": "Cartagena",
+      "tecnologia": "Códigos QR 3D",
+      "tech_stack": [
+        {
+          "tipo": "software",
+          "nombre": "Códigos QR a 3D con sonido",
+          "idiomas": "ES/EN"
+        },
+        {
+          "tipo": "contenido",
+          "nombre": "900+ artefactos precolombinos",
+          "cultura": "Zenú"
+        }
+      ]
+    },
+    {
+      "id": "EM-038",
+      "nombre": "Centro Memoria Paz y Reconciliación",
+      "museo": "Centro Memoria Paz",
+      "ciudad": "Bogotá",
+      "anio": 2012,
+      "area": "300m² + Sala Infantil",
+      "tech_stack": [
+        {
+          "tipo": "hardware",
+          "nombre": "Dispositivos nuevas tecnologías",
+          "uso": "Exhibición"
+        },
+        {
+          "tipo": "software",
+          "nombre": "Materiales pedagógicos digitales",
+          "tema": "Comisión Verdad"
+        }
+      ]
+    },
+    {
+      "id": "EM-039",
+      "nombre": "Sala Abierta",
+      "museo": "Parque Explora",
+      "ciudad": "Medellín",
+      "experiencias": "25",
+      "tech_stack": [
+        {
+          "tipo": "contenido",
+          "nombre": "25+ módulos interactivos",
+          "sala": "Sala Abierta"
+        }
+      ]
+    },
+    {
+      "id": "EM-040",
+      "nombre": "Sala Tiempo",
+      "museo": "Parque Explora",
+      "ciudad": "Medellín",
+      "experiencias": "45",
+      "tech_stack": [
+        {
+          "tipo": "contenido",
+          "nombre": "45+ módulos interactivos",
+          "sala": "Sala Tiempo"
+        }
+      ]
+    },
+    {
+      "id": "EM-041",
+      "nombre": "Acuario",
+      "museo": "Parque Explora",
+      "ciudad": "Medellín",
+      "especies": "252",
+      "area": "2,200m²",
+      "tech_stack": [
+        {
+          "tipo": "Agua dulce",
+          "nombre": "Acuario 2,200m²"
+        },
+        {
+          "tipo": "contenido",
+          "nombre": "252 especies",
+          "ecosistemas": "3 cuencas"
+        }
+      ]
+    }
+  ],
+  "convocatorias": [
+    {
+      "id": "CONV-001",
+      "programa": "Crea Digital 2021",
+      "entidad": "MinTIC+MinCultura",
+      "presupuesto": "4,048M COP",
+      "proyectos": 45,
+      "resolucion": "0967/2021",
+      "ganadores": [
+        "BORONDO (Kaleido Lab)"
+      ]
+    },
+    {
+      "id": "CONV-002",
+      "programa": "Crea Digital 2022",
+      "entidad": "MinTIC+MinCultura",
+      "presupuesto": "5,702M COP",
+      "proyectos": 56,
+      "resolucion": "1041/2022",
+      "nota": "Récord histórico"
+    },
+    {
+      "id": "CONV-003",
+      "programa": "Crea Digital 2023",
+      "entidad": "MinTIC+MinCultura",
+      "presupuesto": "2,500M COP",
+      "proyectos": 37,
+      "nota": "Primera convocatoria con Realidades Extendidas"
+    },
+    {
+      "id": "CONV-004",
+      "programa": "Crea Digital 2019",
+      "entidad": "MinTIC+MinCultura",
+      "resolucion": "2591/2019",
+      "videojuegos": "700M COP",
+      "ganadores": [
+        "Terra (Indie Level)",
+        "Animal Fury",
+        "Oi Marimbí"
+      ]
+    },
+    {
+      "id": "CONV-005",
+      "programa": "Crea Digital 2018",
+      "presupuesto": "350M videojuegos",
+      "ganadores": [
+        "Las Maravillas de Santander",
+        "Cafetown",
+        "Shinyak",
+        "Natuvia"
+      ]
+    },
+    {
+      "id": "CONV-006",
+      "programa": "Crea Digital 2013",
+      "monto": "80M COP/proyecto",
+      "ganadores": [
+        "Nébula",
+        "Fingaro",
+        "Mi Finquita Cafetera",
+        "Write It VS"
+      ]
+    },
+    {
+      "id": "CONV-007",
+      "programa": "Museos.0 PNE 2024",
+      "entidad": "MinCultura",
+      "resolucion": "0742/2024",
+      "estimulos": 2,
+      "monto": "60M COP/proyecto"
+    },
+    {
+      "id": "CONV-008",
+      "programa": "PNE 2024 - Artes expandidas",
+      "entidad": "MinCultura",
+      "resolucion": "0736/2024",
+      "estimulos": 2
+    },
+    {
+      "id": "CONV-009",
+      "programa": "PNE 2024 - Investigación públicos sonoro",
+      "entidad": "MinCultura",
+      "resolucion": "0790/2024",
+      "estimulos": 6
+    },
+    {
+      "id": "CONV-010",
+      "programa": "PNE 2024 - Gestión memoria audiovisual",
+      "entidad": "MinCultura",
+      "resolucion": "0795/2024",
+      "estimulos": 8
+    },
+    {
+      "id": "CONV-011",
+      "programa": "PNE 2024 - Contenidos creativos patrimonio",
+      "entidad": "MinCultura",
+      "resolucion": "0813/2024",
+      "estimulos": 4
+    },
+    {
+      "id": "CONV-012",
+      "programa": "PNE 2024 - Memoria audiovisual",
+      "entidad": "MinCultura",
+      "resolucion": "0818/2024",
+      "estimulos": 17
+    },
+    {
+      "id": "CONV-013",
+      "programa": "PNE 2024 - Contenidos grupos étnicos",
+      "entidad": "MinCultura",
+      "resolucion": "0714/2024",
+      "estimulos": 10
+    },
+    {
+      "id": "CONV-014",
+      "programa": "PNE 2024 - Archivos sonoros",
+      "entidad": "MinCultura",
+      "resolucion": "0872/2024",
+      "estimulos": 1
+    },
+    {
+      "id": "CONV-015",
+      "programa": "Beca Plataforma Bogotá 2024",
+      "entidad": "IDARTES",
+      "monto": "12M COP/beca",
+      "cupos": 2,
+      "ganadores": [
+        "La Poética de los Errores (El Desguazadero)"
+      ]
+    },
+    {
+      "id": "CONV-016",
+      "programa": "Beca Plataforma Bogotá 2017",
+      "entidad": "IDARTES",
+      "monto": "7.5M COP/beca",
+      "ganadores": [
+        "Experiencias Interconectadas",
+        "Artefactos Expandidos",
+        "Sueños Cyborg"
+      ]
+    },
+    {
+      "id": "CONV-017",
+      "programa": "Beca Plataforma Bogotá 2018-2019",
+      "entidad": "IDARTES",
+      "resolucion": "054/2019",
+      "ganadores": [
+        "Lab. Tecnología Artes Mediáticas",
+        "Lab. Simbiosis"
+      ]
+    },
+    {
+      "id": "CONV-018",
+      "programa": "Beca Plataforma Bogotá 2021",
+      "entidad": "IDARTES",
+      "ganadores": [
+        "Injertos Tipográficos (Pierre Puentes)"
+      ]
+    },
+    {
+      "id": "CONV-019",
+      "programa": "Residencia Plataforma Bogotá - Medialab 2022",
+      "entidad": "IDARTES",
+      "ganadores": [
+        "Tramas para Ecosistemas Fraccionados"
+      ]
+    },
+    {
+      "id": "CONV-020",
+      "programa": "Videoarte para Domo 2018",
+      "entidad": "IDARTES",
+      "monto": "10M COP",
+      "ganadores": [
+        "De-Formaciones Sonoras",
+        "Desconexión",
+        "Transis-Tod",
+        "Margen de Ruido",
+        "Kallari"
+      ]
+    },
+    {
+      "id": "CONV-021",
+      "programa": "Videoarte para Domo 2022",
+      "entidad": "IDARTES",
+      "resolucion": "528/2022",
+      "monto": "10M COP",
+      "ganadores": [
+        "Las Memorias del Sol",
+        "Oasis",
+        "Microbios Chamánicos",
+        "Studium"
+      ]
+    },
+    {
+      "id": "CONV-022",
+      "programa": "Beca Creación Audiovisual Nuevos Medios 2018",
+      "entidad": "IDARTES",
+      "monto": "40M COP",
+      "ganadores": [
+        "Las Extraordinarias Aventuras de Biófilo Panclasta"
+      ]
+    },
+    {
+      "id": "CONV-023",
+      "programa": "Beca Arte, Cuerpo y Tecnología 2018",
+      "entidad": "IDARTES",
+      "ganadores": [
+        "Cuerpo, Muerte y Lenguaje (20M)",
+        "Inter_Faz EMA (15M)"
+      ]
+    },
+    {
+      "id": "CONV-024",
+      "programa": "Beca Investigación Arte, Tecnología, Ancestralidad 2022",
+      "entidad": "IDARTES",
+      "monto": "25M COP",
+      "ganadores": [
+        "Tecnologías para Abrazar el Sol"
+      ]
+    },
+    {
+      "id": "CONV-025",
+      "programa": "Espacios en Residencia El Parqueadero 2019",
+      "entidad": "IDARTES",
+      "resolucion": "744/2019",
+      "ganadores": [
+        "Fantasmas y Paratexto (Arango, Gutiérrez, Lazala)"
+      ]
+    },
+    {
+      "id": "CONV-026",
+      "programa": "Residencia CKWEB Museo La Tertulia 2018",
+      "entidad": "IDARTES",
+      "ganadores": [
+        "Proyecto Arte Sonoro Tania Ausecha"
+      ]
+    },
+    {
+      "id": "CONV-027",
+      "programa": "Premio RealMix 2020",
+      "entidad": "IDARTES",
+      "monto": "USD 20,000 total",
+      "ganadores": [
+        "Silvana Callegari (COL)",
+        "Ana Cortés (MEX)",
+        "Casanova D'Antiochia (ARG)"
+      ]
+    },
+    {
+      "id": "CONV-028",
+      "programa": "Google Play Indie Games Fund 2025",
+      "region": "LATAM",
+      "cupos": 10,
+      "ganadorColombia": "Logicubes (Indie Level Studio)",
+      "monto": "USD 150,000"
+    },
+    {
+      "id": "CONV-029",
+      "programa": "Prix Ars Electronica 2023",
+      "organizacion": "Ars Electronica (Austria)",
+      "categoria": "Digital Musics & Sound Art",
+      "ganador": "A Tale of Two Seeds (Atractor)",
+      "premio": "Golden Nica"
+    },
+    {
+      "id": "CONV-030",
+      "programa": "Unreal Dev Grants 2017",
+      "organizacion": "Epic Games",
+      "ganador": "Decoherence (Efecto Estudios)"
+    },
+    {
+      "id": "CONV-031",
+      "programa": "Square Enix Prize 2012",
+      "monto": "40M COP",
+      "ganador": "Poltergeist (Glitchy Pixel)"
+    },
+    {
+      "id": "CONV-032",
+      "programa": "Duelo de Creadores Claro",
+      "monto": "USD 20,000",
+      "ganador": "Dashmellow (Teriun Games)"
+    },
+    {
+      "id": "CONV-033",
+      "programa": "Crea Digital 2015",
+      "entidad": "MinTIC+MinCultura",
+      "ganadores": [
+        "Kodety (U. Cooperativa Medellín)"
+      ]
+    },
+    {
+      "id": "CONV-034",
+      "programa": "Crea Digital 2014",
+      "entidad": "MinTIC+MinCultura",
+      "ganadores": [
+        "Expedición Colombia (Quatio)",
+        "Emma en Colombia (Codiscos)",
+        "Pregoneros de Medellín (Baobab)"
+      ]
+    },
+    {
+      "id": "CONV-035",
+      "programa": "Crea Digital 2020",
+      "ganadores": [
+        "Aniquilaton (Medellín/Antioquia)"
+      ]
+    },
+    {
+      "id": "CONV-036",
+      "programa": "Crea Digital 2021 Antioquia",
+      "proyectos": 6,
+      "regiones": [
+        "Medellín",
+        "Abejorral",
+        "La Estrella"
+      ]
+    },
+    {
+      "id": "CONV-037",
+      "programa": "PNE 2020 Los Museos Cuentan",
+      "entidad": "MinCultura",
+      "resolucion": "1246/2020 (apertura), 1473/2020 (resultados)",
+      "contexto": "Apoyo museos COVID-19"
+    },
+    {
+      "id": "CONV-038",
+      "programa": "Programa Nacional Concertación +Museo",
+      "museo": "Museo de Antioquia",
+      "proyecto": "App Realidad Aumentada"
+    },
+    {
+      "id": "CONV-039",
+      "programa": "Beca Secretaría Cultura Medellín 2015",
+      "convocatoria": "Arte y Cultura para la Vida",
+      "ganador": "Archivo Vivo: Memorias de Madres (Casa de la Memoria)"
+    },
+    {
+      "id": "CONV-040",
+      "programa": "New Frontiers in Research Fund Canadá 2024",
+      "proyecto": "Digital Residency Bogotá (re)imagined",
+      "beneficiario": "MAMBO + U. Zürich"
+    },
+    {
+      "id": "CONV-041",
+      "programa": "USAID Energía Limpia Colombia 2022",
+      "proyecto": "BogotanicApp",
+      "beneficiario": "Jardín Botánico Bogotá"
+    }
+  ]
+}
