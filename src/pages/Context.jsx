@@ -1,10 +1,22 @@
 import { useState, useMemo } from 'react';
 import { getTimelineData } from '../utils/dataProcessing';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 function Context({ data, projects }) {
   const [selectedYear, setSelectedYear] = useState(null);
   const timeline = getTimelineData(data);
   const years = Object.keys(timeline).sort((a, b) => b - a);
+
+  // Preparar datos para el historiograma
+  const histogramData = useMemo(() => {
+    return years
+      .sort((a, b) => a - b) // Ordenar cronológicamente para el gráfico
+      .map(year => ({
+        year: parseInt(year),
+        proyectos: timeline[year].proyectos.length,
+        convocatorias: timeline[year].convocatorias.length
+      }));
+  }, [timeline, years]);
 
   // Distribución geográfica
   const cityStats = useMemo(() => {
@@ -56,6 +68,66 @@ function Context({ data, projects }) {
         <p className="section-subtitle">
           {years.length > 0 && `${years[years.length - 1]} - ${years[0]}`}
         </p>
+
+        <div className="histogram-container">
+          <ResponsiveContainer width="100%" height={300}>
+            <BarChart 
+              data={histogramData}
+              margin={{ top: 20, right: 30, left: 20, bottom: 20 }}
+            >
+              <CartesianGrid 
+                strokeDasharray="0" 
+                stroke="#000" 
+                strokeWidth={1}
+                vertical={false}
+              />
+              <XAxis 
+                dataKey="year" 
+                stroke="#000"
+                strokeWidth={2}
+                tick={{ fill: '#000', fontFamily: 'inherit', fontSize: 12 }}
+                label={{ value: 'Año', position: 'insideBottom', offset: -10, fill: '#000' }}
+              />
+              <YAxis 
+                stroke="#000"
+                strokeWidth={2}
+                tick={{ fill: '#000', fontFamily: 'inherit', fontSize: 12 }}
+                label={{ value: 'Cantidad', angle: -90, position: 'insideLeft', fill: '#000' }}
+              />
+              <Tooltip 
+                contentStyle={{
+                  background: '#fff',
+                  border: '2px solid #000',
+                  boxShadow: '3px 3px 0 rgba(0,0,0,0.2)',
+                  fontFamily: 'inherit',
+                  padding: '8px 12px'
+                }}
+                labelStyle={{ fontWeight: 'bold', marginBottom: '4px' }}
+                cursor={{ fill: 'rgba(0,0,0,0.05)' }}
+              />
+              <Legend 
+                wrapperStyle={{ 
+                  fontFamily: 'inherit',
+                  paddingTop: '10px'
+                }}
+              />
+              <Bar 
+                dataKey="proyectos" 
+                fill="#000" 
+                stroke="#000"
+                strokeWidth={2}
+                name="Proyectos"
+              />
+              <Bar 
+                dataKey="convocatorias" 
+                fill="#fff" 
+                stroke="#000"
+                strokeWidth={2}
+                name="Convocatorias"
+              />
+            </BarChart>
+          </ResponsiveContainer>
+        </div>
 
         <div className="timeline">
           {years.map(year => {
