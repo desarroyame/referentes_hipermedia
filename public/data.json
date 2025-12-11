@@ -1170,7 +1170,7 @@
       "nombre": "Los Migrantes",
       "empresa": "Atractor (colectivo)",
       "ciudad": "Bogotá",
-      "anio": "2018-2019",
+      "anio": 2018,
       "tipo": "Videojuego-performance",
       "exhibiciones": "MoMA NY",
       "tech_stack": [
@@ -1719,7 +1719,7 @@
       "nombre": "Planetario de Medellín",
       "museo": "Parque Explora",
       "ciudad": "Medellín",
-      "anio": "1984/2011",
+      "anio": 2011,
       "tecnologia": "2 proyectores 4K-6K, sonido 7.1",
       "tech_stack": [
         {
@@ -1780,7 +1780,7 @@
       "nombre": "Sala Música",
       "museo": "Parque Explora",
       "ciudad": "Medellín",
-      "anio": "2018-2019",
+      "anio": 2018,
       "inversion": "455M COP TigoUne",
       "experiencias": "30+",
       "tech_stack": [
@@ -2069,7 +2069,7 @@
       "nombre": "Recorridos Virtuales 360°",
       "museo": "Museo Nacional",
       "ciudad": "Bogotá",
-      "anio": "2020+",
+      "anio": 2020,
       "exposiciones": "5+",
       "tech_stack": [
         {
@@ -2108,7 +2108,7 @@
       "nombre": "Un Placer Incierto: Artes del Tiempo",
       "museo": "MAMBO",
       "ciudad": "Bogotá",
-      "anio": "2022-2023",
+      "anio": 2022,
       "artistas": "35+",
       "tech_stack": [
         {
